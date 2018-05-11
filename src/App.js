@@ -1,26 +1,19 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import Home from './Home';
-import './Home.css'
+
+import Home from './Pages/Home.js';
 
 
 class App extends Component {
   render() {
     return (
-      <div className="document">
-        <div className="nav">
-          <label for="toggle">&#9776;</label>
-          <input type="checkbox" id="toggle" />
-          <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-            <a href="#"><span>Book online</span></a>
-      </div>
+      <Router>
+        <div>
+          <Route exact path="/" component={Home} />
         </div>
-        <Home />
-
-      </div>
+      </Router>
+        
     );
   }
 }
