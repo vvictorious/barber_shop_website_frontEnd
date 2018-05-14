@@ -6,7 +6,13 @@
 	position: fixed;
 }
 #formio{
-	width: 10%;
-	left: 78%;
-	position: absolute;
+	top: 30%;
+	left: 77%;
+	position: fixed;
+	width: 20%;
 }
+.control-label{
+	font-family: futura;
+	display: none;
+}
+
