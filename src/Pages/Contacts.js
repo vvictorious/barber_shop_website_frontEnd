@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../Components/Navbar.js'
 import './Contacts.css';
-import cut from '../Images/kid_cut.jpg'
+import cut from '../Images/streetcut_portrait.jpg'
 
 class Contacts extends Component {
 	render(){

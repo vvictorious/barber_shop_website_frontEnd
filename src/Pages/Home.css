@@ -2,5 +2,7 @@
 	margin-top: 50px;
 }
 .photo{
-width: 100%;
+	width: 100%;
+	height: auto;
+	position: fixed;
 }
