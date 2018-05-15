@@ -1,6 +1,22 @@
 .container{
 	margin-top: 50px;
 }
+.button{
+	position: absolute;
+	top: 50%;
+	right: 3%;
+	background-color: transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #b31441;
+	font-size: 20px;
+	padding: 7px 20px 10px 20px;
+	border: solid #8c1f3e 2px;
+	text-decoration: none;
+}
+
 .photo{
 	width: 100%;
 	height: auto;
