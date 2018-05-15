@@ -20,6 +20,11 @@
 	text-decoration: none;
 	color: #DC143C;
 }
+.button:visited{
+	text-decoration: none;
+	color: #DC143C;
+
+}
 
 .photo{
 	width: 100%;
