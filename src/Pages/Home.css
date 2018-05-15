@@ -16,6 +16,10 @@
 	border: solid #8c1f3e 2px;
 	text-decoration: none;
 }
+.button:hover{
+	text-decoration: none;
+	color: #DC143C;
+}
 
 .photo{
 	width: 100%;
