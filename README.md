@@ -1,3 +1,9 @@
+Techniques
+
+  The goal for this project was to make a website for my barber using React, and having one collection of data.  Some of the things that I wanted to experiment with was responsiveness, form.io, and having an email with some content that a user created to a specified email.  I went into this project knowing that I wanted to make a mainly front end application.  The biggest difficulty with this project was React.  Getting used to importing things, exporting things, state, and everything else took some time.  I found myself getting errors often, and the problem was often me forgetting to import or export something.  Also, I ran into a froblem with form.io and sendgrid.  My forms only appear when my contacts page is refreshed.  I am still trouble shooting what the cause of this is.  Also, it is not responsive yet.
+  I learned a lot from this project.  I experimented with bootstrap enough to discover that I don't think I will be experimenting with it much more in the future.  It is very convenient, but I feel like it is limiting.  Also, I learned about routing things effectively using bootstrap. I intend on adding a google maps api, making the site responsive (because right now it only looks good on full screen display on my mac) and a couple of other things.  However, I am happy with what has been done so far on this project.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
